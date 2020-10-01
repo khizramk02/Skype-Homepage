@@ -1,0 +1,54 @@
+.feature-card {
+  position: relative;
+  /* padding-left: 35px; */
+  height: 520px;
+  text-align: left;
+  margin: 30px 15px;
+  border: 1px solid #ccc;
+  border-radius: 0 20px 20px 20px;
+}
+.feature-card img {
+  height: 200px;
+  width: 100%;
+  border-radius: 0 20px 0 0;
+}
+.card-body h3 {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.card-body h3,
+p {
+  font-size: 18px;
+}
+.feature-card a {
+  position: absolute;
+  bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .feature-card {
+    text-align: center;
+  }
+  .feature-card a {
+    position: absolute;
+    left: 100px;
+  }
+}
+
+@media (max-width: 786px) {
+  .card-body h3,
+  p {
+    font-size: 14px;
+  }
+}
+.react-multiple-carousel__arrow {
+  border: 2px solid #2b2c33;
+  background: transparent;
+}
+.react-multiple-carousel__arrow::before {
+  color: black;
+}
+.react-multiple-carousel__arrow::before:hover {
+  background-color: #2b2c33;
+}

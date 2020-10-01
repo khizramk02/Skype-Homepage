@@ -1,0 +1,83 @@
+.extra button {
+  margin: 35px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #006fbb;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+.extra button:hover {
+  background-color: #0362a1;
+  color: white;
+}
+.extra {
+  padding: 40px;
+}
+.extra h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.extra p {
+  font-size: 15px;
+}
+.extra img {
+  width: 70px;
+  height: 70px;
+  padding: 8px;
+}
+
+/* --------------------------------------------
+ */
+
+.social-links {
+  list-style-type: none;
+  display: flex;
+}
+.social-links li {
+  padding: 20px;
+  font-size: 14px;
+}
+.emergency {
+  text-align: right;
+}
+.emergency p {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1px;
+}
+.emergency h6 {
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  #chatNowSection {
+    display: none;
+  }
+  .links {
+    margin-top: 40px;
+  }
+  .emergency h6 {
+    font-size: 10px;
+  }
+  .social-links li {
+    font-size: 11px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .links {
+    margin-top: 40px;
+  }
+  .social-links {
+    text-align: left;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .emergency {
+    margin-top: 20px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,10 @@
+.heading h1 {
+  padding-top: 40px;
+  font-weight: 900;
+}
+
+@media (max-width: 530px) {
+  .heading h1 {
+    font-size: 24px;
+  }
+}

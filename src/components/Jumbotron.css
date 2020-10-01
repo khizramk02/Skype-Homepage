@@ -1,0 +1,90 @@
+.left {
+  text-align: left;
+}
+.float_l h2 {
+  font-size: 40px;
+  margin: 0px 0px 10px;
+  font-weight: bold;
+}
+.float_l h3 {
+  font-size: 28px;
+  margin: 30px 0px 30px;
+  font-weight: bold;
+}
+.meet_button {
+  color: #fff;
+  background-color: #0078ca;
+  box-sizing: border-box;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  padding: 12px 30px;
+}
+.text {
+  font-size: 15px;
+  color: #006fbb;
+  padding-top: 10px;
+}
+.text:hover {
+  text-decoration: none;
+  color: #006fbb;
+}
+.btnWrapper {
+  display: inline-block;
+}
+.pad {
+  padding-bottom: 30px;
+}
+#desk_image {
+  display: block;
+}
+#tab_image {
+  display: none;
+}
+#mob_image {
+  display: none;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1024px) {
+  #desk_image {
+    display: none;
+  }
+  #tab_image {
+    display: block;
+  }
+  #mob_image {
+    display: none;
+  }
+  .left {
+    text-align: center;
+  }
+}
+
+/*  (mobile, less than 1200px) */
+@media (max-width: 767px) {
+  #desk_image {
+    display: none;
+  }
+  #tab_image {
+    display: none;
+  }
+  #mob_image {
+    display: block;
+  }
+}
+
+@media (max-width: 503px) {
+  .float_l h2 {
+    font-size: 25px;
+  }
+  .float_l h3 {
+    font-size: 18px;
+  }
+}
